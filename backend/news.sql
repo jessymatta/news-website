@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS `newsdb`.`news` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(45) NOT NULL,
   `picture` VARCHAR(45) NOT NULL,
-  `description` VARCHAR(45) NOT NULL,
+  `description` VARCHAR(800) NOT NULL,
   `created_at` TIMESTAMP NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;

@@ -1,15 +1,6 @@
 console.log("working??")
 const news_container = document.getElementById("news-containerr");
 
-// {
-//     "id": 1,
-//     "title": "Titlee 1",
-//     "picture": "pic url",
-//     "description": "aaaaaadddddddddd",
-//     "created_at": "2022-09-23 11:54:11"
-// }
-
-
 // Creating a news card and adding it to the page
 const addNews = (news) => {
 
