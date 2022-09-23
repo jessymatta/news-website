@@ -12,7 +12,7 @@ USE `newsdb` ;
 -- Table `newsdb`.`news`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `newsdb`.`news` (
-  `id` INT NOT NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(45) NOT NULL,
   `picture` VARCHAR(45) NOT NULL,
   `description` VARCHAR(45) NOT NULL,
