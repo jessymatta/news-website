@@ -20,3 +20,8 @@ header h1{
     color: white;
     font-weight: 900;
 }
+
+.news-container{
+    border:2px solid red;
+    height:100%;
+}
